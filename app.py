@@ -19,7 +19,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'  # Required for session management
 
 # Configure the SQLAlchemy part
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Shubham%409709@localhost/Yolo_Obj'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:srijit2004@localhost/Yolo obj'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize SQLAlchemy
